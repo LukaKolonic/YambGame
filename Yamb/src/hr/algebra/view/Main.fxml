@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.5938069216757741" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.algebra.controller.MainController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="340.0" prefHeight="398.0" prefWidth="357.0">
+         <children>
+            <GridPane minHeight="740.0" minWidth="630.0" style="-fx-background-color: gainsboro; -fx-border-width: 4;" AnchorPane.topAnchor="30.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label alignment="CENTER" minHeight="70.0" minWidth="210.0" prefHeight="70.0" prefWidth="153.0" style="-fx-border-color: orange; -fx-border-width: 2;" text="Jedinice" textFill="#d69d18" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" />
+                  <Label alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" text="Igrač1" textFill="#096fae" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" text="Dvojke" textFill="#d69d18" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbJ2" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" text="Igrač2" textFill="#096fae" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbJ1" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbC1" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbT2" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbT1" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbD2" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbD1" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" text="Tris" textFill="#d69d18" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" text="Šestice" textFill="#d69d18" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" text="Petice" textFill="#d69d18" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" text="Četvorke" textFill="#d69d18" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" text="Trojke" textFill="#d69d18" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" text="Zbroj" textFill="#d73129" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" text="Jamb" textFill="#d69d18" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" text="Poker" textFill="#d69d18" GridPane.rowIndex="8">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbTris2" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbTris1" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbS2" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbS1" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbP2" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbP1" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbC2" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbZbroj2" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbZbroj1" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbPoker2" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbJamb1" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbJamb2" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lbPoker1" alignment="CENTER" minHeight="70.0" minWidth="210.0" style="-fx-border-color: orange; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnJedinice" alignment="CENTER_RIGHT" contentDisplay="RIGHT" minHeight="25.0" mnemonicParsing="false" onAction="#countJedinice" prefHeight="10.0" prefWidth="28.0" style="-fx-border-color: darkorange;" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets right="10.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnDvojke" alignment="CENTER_RIGHT" contentDisplay="RIGHT" minHeight="25.0" mnemonicParsing="false" onAction="#countDvojke" prefHeight="10.0" prefWidth="28.0" style="-fx-border-color: darkorange;" GridPane.rowIndex="2" />
+                  <Button fx:id="btnPoker" alignment="CENTER_RIGHT" contentDisplay="RIGHT" minHeight="25.0" mnemonicParsing="false" onAction="#countPoker" prefHeight="10.0" prefWidth="28.0" style="-fx-border-color: darkorange;" GridPane.rowIndex="8" />
+                  <Button fx:id="btnTris" alignment="CENTER_RIGHT" contentDisplay="RIGHT" minHeight="25.0" mnemonicParsing="false" onAction="#countTris" prefHeight="10.0" prefWidth="28.0" style="-fx-border-color: darkorange;" GridPane.rowIndex="7" />
+                  <Button fx:id="btnŠestice" alignment="CENTER_RIGHT" contentDisplay="RIGHT" minHeight="25.0" mnemonicParsing="false" onAction="#countSestice" prefHeight="10.0" prefWidth="28.0" style="-fx-border-color: darkorange;" GridPane.rowIndex="6" />
+                  <Button fx:id="btnPetice" alignment="CENTER_RIGHT" contentDisplay="RIGHT" minHeight="25.0" mnemonicParsing="false" onAction="#countPetice" prefHeight="10.0" prefWidth="28.0" style="-fx-border-color: darkorange;" GridPane.rowIndex="5" />
+                  <Button fx:id="btnČetvorke" alignment="CENTER_RIGHT" contentDisplay="RIGHT" minHeight="25.0" mnemonicParsing="false" onAction="#countCetvorke" prefHeight="10.0" prefWidth="28.0" style="-fx-border-color: darkorange;" GridPane.rowIndex="4" />
+                  <Button fx:id="btnTrojke" alignment="CENTER_RIGHT" contentDisplay="RIGHT" minHeight="25.0" mnemonicParsing="false" onAction="#countTrojke" prefHeight="10.0" prefWidth="28.0" style="-fx-border-color: darkorange;" GridPane.rowIndex="3" />
+                  <Button fx:id="btnJamb" alignment="CENTER_RIGHT" contentDisplay="RIGHT" minHeight="25.0" mnemonicParsing="false" onAction="#countJamb" prefHeight="10.0" prefWidth="28.0" style="-fx-border-color: darkorange;" GridPane.rowIndex="9" />
+               </children>
+            </GridPane>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="900.0" prefWidth="1100.0">
+         <children>
+            <FlowPane layoutX="49.0" layoutY="122.0" orientation="VERTICAL" prefHeight="600.0" prefWidth="61.0" AnchorPane.topAnchor="122.0">
+               <children>
+                  <ImageView fx:id="dice1" disable="true" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../slike/dice1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="dice2" disable="true" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <FlowPane.margin>
+                        <Insets top="15.0" />
+                     </FlowPane.margin>
+                     <image>
+                        <Image url="@../slike/dice2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="dice3" disable="true" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <FlowPane.margin>
+                        <Insets top="15.0" />
+                     </FlowPane.margin>
+                     <image>
+                        <Image url="@../slike/dice3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="dice4" disable="true" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <FlowPane.margin>
+                        <Insets top="15.0" />
+                     </FlowPane.margin>
+                     <image>
+                        <Image url="@../slike/dice4.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="dice5" disable="true" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../slike/dice5.png" />
+                     </image>
+                     <FlowPane.margin>
+                        <Insets top="15.0" />
+                     </FlowPane.margin>
+                  </ImageView>
+               </children>
+            </FlowPane>
+            <Button fx:id="btnRoll" layoutX="38.0" layoutY="708.0" minHeight="60.0" minWidth="123.0" mnemonicParsing="false" onAction="#rollDices" prefHeight="60.0" prefWidth="123.0" style="-fx-background-color: orange;" text="Zavrti" textFill="WHITE" AnchorPane.topAnchor="708.0">
+               <font>
+                  <Font name="Elephant" size="24.0" />
+               </font>
+            </Button>
+            <Button layoutY="14.0" mnemonicParsing="false" onAction="#continuePreviousGame" text="Continue previous game" />
+            <Button layoutX="195.0" layoutY="14.0" mnemonicParsing="false" onAction="#createDoc" text="Documentation" />
+            <TextArea fx:id="taChat" layoutX="173.0" layoutY="126.0" prefHeight="632.0" prefWidth="269.0" style="-fx-border-color: gray; -fx-border-width: 2px;" wrapText="true" />
+            <TextField fx:id="tfChat" layoutX="173.0" layoutY="707.0" prefHeight="60.0" prefWidth="269.0" style="-fx-border-color: grey; -fx-border-width: 2px;" />
+            <Button layoutX="380.0" layoutY="723.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="31.0" prefWidth="43.0" style="-fx-background-color: orange;" text="&gt;&gt;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+            <Button layoutX="330.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadDOM" prefHeight="31.0" prefWidth="100.0" text="Load DOM" />
+            <Button fx:id="btnNext" disable="true" layoutX="356.0" layoutY="60.0" mnemonicParsing="false" onAction="#nextStep" text="&gt;&gt;" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>

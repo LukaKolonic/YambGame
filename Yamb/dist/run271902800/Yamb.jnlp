@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Yamb.jnlp">
+  <information>
+    <title>Yamb</title>
+    <vendor>Teodor</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Yamb.jar" size="178183" download="eager" />
+    <jar href="lib\YambContract.jar" size="3200" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Yamb" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="hr.algebra.Yamb"  name="Yamb" />
+  <update check="always"/>
+</jnlp>

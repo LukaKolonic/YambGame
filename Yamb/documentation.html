@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dokumentacija</title>
+</head>
+<body>
+<h1><b>DOKUMENTACIJA</b></h1>
+
+
+<h1><b>Naziv paketa: controller</h1></b>
+
+
+
+<h2>Naziv klase: MainController.java</h2>
+<h3>package hr.algebra.controller</h3><h4>public MainController</h4><h4>extends java.lang.Object</h4><h4>implements javafx.fxml.Initializable</h4>
+
+
+
+<h5>Varijable:</h5>
+<p>private javafx.scene.image.ImageView hr.algebra.controller.MainController.dice1</p>
+
+
+<p>private javafx.scene.image.ImageView hr.algebra.controller.MainController.dice2</p>
+
+
+<p>private javafx.scene.image.ImageView hr.algebra.controller.MainController.dice3</p>
+
+
+<p>private javafx.scene.image.ImageView hr.algebra.controller.MainController.dice4</p>
+
+
+<p>private javafx.scene.image.ImageView hr.algebra.controller.MainController.dice5</p>
+
+
+<p>private javafx.scene.control.Button hr.algebra.controller.MainController.btnRoll</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbJ2</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbJ1</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbC1</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbT2</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbT1</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbD2</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbD1</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbTris2</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbTris1</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbS2</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbS1</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbP2</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbP1</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbC2</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbZbroj2</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbZbroj1</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbPoker2</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbJamb1</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbJamb2</p>
+
+
+<p>private javafx.scene.control.Label hr.algebra.controller.MainController.lbPoker1</p>
+
+
+<p>private javafx.scene.control.Button hr.algebra.controller.MainController.btnJedinice</p>
+
+
+<p>private javafx.scene.control.Button hr.algebra.controller.MainController.btnDvojke</p>
+
+
+<p>private javafx.scene.control.Button hr.algebra.controller.MainController.btnPoker</p>
+
+
+<p>private javafx.scene.control.Button hr.algebra.controller.MainController.btnTris</p>
+
+
+<p>private javafx.scene.control.Button hr.algebra.controller.MainController.btnŠestice</p>
+
+
+<p>private javafx.scene.control.Button hr.algebra.controller.MainController.btnPetice</p>
+
+
+<p>private javafx.scene.control.Button hr.algebra.controller.MainController.btnČetvorke</p>
+
+
+<p>private javafx.scene.control.Button hr.algebra.controller.MainController.btnTrojke</p>
+
+
+<p>private javafx.scene.control.Button hr.algebra.controller.MainController.btnJamb</p>
+
+
+<p>private javafx.scene.control.TextField hr.algebra.controller.MainController.tfChat</p>
+
+
+<p>private javafx.scene.control.TextArea hr.algebra.controller.MainController.taChat</p>
+
+
+<p>private final java.lang.String hr.algebra.controller.MainController.URL</p>
+
+
+<p>javafx.collections.ObservableList hr.algebra.controller.MainController.dices</p>
+
+
+<p>javafx.collections.ObservableList hr.algebra.controller.MainController.clickedDices</p>
+
+
+<p>javafx.collections.ObservableList hr.algebra.controller.MainController.clickedButtons</p>
+
+
+<p>hr.algebra.model.Dice hr.algebra.controller.MainController.d1</p>
+
+
+<p>hr.algebra.model.Dice hr.algebra.controller.MainController.d2</p>
+
+
+<p>hr.algebra.model.Dice hr.algebra.controller.MainController.d3</p>
+
+
+<p>hr.algebra.model.Dice hr.algebra.controller.MainController.d4</p>
+
+
+<p>hr.algebra.model.Dice hr.algebra.controller.MainController.d5</p>
+
+
+<p>java.util.Random hr.algebra.controller.MainController.random</p>
+
+
+<p>private final java.io.File hr.algebra.controller.MainController.file</p>
+
+
+<p>javafx.collections.ObservableList hr.algebra.controller.MainController.gameLabels</p>
+
+
+<p>hr.algebra.model.Game hr.algebra.controller.MainController.game</p>
+
+
+<p>java.util.List hr.algebra.controller.MainController.allLabels</p>
+
+
+<p>java.util.List hr.algebra.controller.MainController.allLabelss</p>
+
+
+<p>private static final java.lang.String hr.algebra.controller.MainController.DOC_FILENAME</p>
+
+
+<p>private static final java.lang.String hr.algebra.controller.MainController.PACKAGE_LOCATION</p>
+
+
+<p>private static final java.lang.String hr.algebra.controller.MainController.CLASSES_PACKAGE</p>
+
+
+<p>boolean hr.algebra.controller.MainController.deserilazation</p>
+
+
+<p>int hr.algebra.controller.MainController.counter</p>
+
+
+<p>private hr.algebra.threads.ClientThread hr.algebra.controller.MainController.clientThread</p>
+
+
+<p>private hr.algebra.model.Player hr.algebra.controller.MainController.player</p>
+
+
+<p>private int hr.algebra.controller.MainController.playerNumber</p>
+
+
+<p>private java.util.List hr.algebra.controller.MainController.moves</p>
+
+
+<p>private java.util.List hr.algebra.controller.MainController.DOMSteps</p>
+
+
+<p>private java.util.List hr.algebra.controller.MainController.loadedDOMSteps</p>
+
+
+<p>private javafx.scene.control.Button hr.algebra.controller.MainController.btnNext</p>
+
+
+<p>private int hr.algebra.controller.MainController.sumAll</p>
+
+
+<p>private int hr.algebra.controller.MainController.sumAll2</p>
+
+
+<p>private hr.algebra.MessengerService hr.algebra.controller.MainController.messangerService</p>
+
+
+<p>private int hr.algebra.controller.MainController.nbrOfMessages</p>
+
+
+<p>int hr.algebra.controller.MainController.i</p>
+
+
+
+
+<h5>Metode:</h5>
+<p>static class javafx.scene.image.ImageView access$100(hr.algebra.controller.MainController arg0)</p>
+<p>static class javafx.scene.image.ImageView access$200(hr.algebra.controller.MainController arg0)</p>
+<p>static class javafx.scene.image.ImageView access$300(hr.algebra.controller.MainController arg0)</p>
+<p>static class javafx.scene.control.Button access$000(hr.algebra.controller.MainController arg0)</p>
+<p>static class javafx.scene.image.ImageView access$400(hr.algebra.controller.MainController arg0)</p>
+<p>static class javafx.scene.image.ImageView access$500(hr.algebra.controller.MainController arg0)</p>
+<p>static class hr.algebra.model.Player access$600(hr.algebra.controller.MainController arg0)</p>
+<p>static interface java.util.List access$700(hr.algebra.controller.MainController arg0)</p>
+<p>public void initialize(java.net.URL arg0, java.util.ResourceBundle arg1)</p>
+<p>static void access$800(hr.algebra.controller.MainController arg0)</p>
+<p>static int access$1000(hr.algebra.controller.MainController arg0)</p>
+<p>static void access$1100(hr.algebra.controller.MainController arg0) throws class java.rmi.RemoteException</p>
+<p>static interface hr.algebra.MessengerService access$900(hr.algebra.controller.MainController arg0)</p>
+<p>static int access$1002(hr.algebra.controller.MainController arg0, int arg1)</p>
+<p>private void sumAll(int arg0)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void countPetice(javafx.event.ActionEvent arg0)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void countSestice(javafx.event.ActionEvent arg0)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void countTris(javafx.event.ActionEvent arg0)</p>
+<p>private void sumAll2(int arg0)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void rollDices()</p>
+<p>private void setUpListeners()</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void countDvojke(javafx.event.ActionEvent arg0)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void countTrojke(javafx.event.ActionEvent arg0)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void countCetvorke(javafx.event.ActionEvent arg0)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void countJedinice(javafx.event.ActionEvent arg0)</p>
+<p>private void writeAllMessages() throws class java.rmi.RemoteException</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void createDoc(javafx.event.ActionEvent arg0)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void loadDOM()</p>
+<p>public void showMove(java.util.List<hr.algebra.model.Move> arg0)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void nextStep(javafx.event.ActionEvent arg0)</p>
+<p>private static void lambda$loadDOM$4(hr.algebra.model.Field arg0)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void sendMessage(javafx.event.ActionEvent arg0)</p>
+<p>private static void lambda$loadDOM$3(javafx.scene.control.Label arg0)</p>
+<p>private void initLabels()</p>
+<p>private void initializeDices()</p>
+<p>private void serializeGame()</p>
+<p>private class hr.algebra.model.Game deserializeGame()</p>
+<p>private void initializeChat()</p>
+<p>private void saveDOM()</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void countPoker(javafx.event.ActionEvent arg0)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void countJamb(javafx.event.ActionEvent arg0)</p>
+<p>public void updateChat()</p>
+<p>private static void lambda$showMove$1(hr.algebra.model.Move arg0, javafx.scene.control.Label arg1)</p>
+<p>private static boolean lambda$showMove$0(hr.algebra.model.Move arg0, javafx.scene.control.Label arg1)</p>
+<p>static class java.lang.String getStringsThatOccurNTimes(java.util.List<java.lang.String> arg0, int arg1)</p>
+<p>private static boolean lambda$nextStep$5(java.lang.String arg0, javafx.scene.control.Label arg1)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void continuePreviousGame(javafx.event.ActionEvent arg0)</p>
+<p>private static void lambda$nextStep$6(int arg0, javafx.scene.control.Label arg1)</p>
+<p>private void lambda$writeAllMessages$2(java.lang.StringBuilder arg0, hr.algebra.ChatMessage arg1)</p>
+
+
+
+
+<h5>Konstruktori:</h5>
+<h5>public hr.algebra.controller.MainController()</h5>
+
+
+
+
+
+<h2>Naziv klase: MenuController.java</h2>
+<h3>package hr.algebra.controller</h3><h4>public MenuController</h4><h4>extends java.lang.Object</h4><h4>implements javafx.fxml.Initializable</h4>
+
+
+
+<h5>Varijable:</h5>
+<p>private javafx.scene.control.TextField hr.algebra.controller.MenuController.tfNickname</p>
+
+
+<p>private javafx.scene.control.Button hr.algebra.controller.MenuController.btnPlay</p>
+
+
+<p>private hr.algebra.model.Player hr.algebra.controller.MenuController.player</p>
+
+
+<p>private boolean hr.algebra.controller.MenuController.isFirst</p>
+
+
+<p>java.util.Random hr.algebra.controller.MenuController.r</p>
+
+
+
+
+<h5>Metode:</h5>
+<p>public void initialize(java.net.URL arg0, java.util.ResourceBundle arg1)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void goToGame(javafx.event.ActionEvent arg0)</p>
+<p style="font-size:12px"><b>@javafx.fxml.FXML()</p></b>
+
+
+<p>private void handleBtnPlay(javafx.scene.input.KeyEvent arg0)</p>
+
+
+
+
+<h5>Konstruktori:</h5>
+<h5>public hr.algebra.controller.MenuController()</h5>
+
+
+
+
+
+<h1><b>Naziv paketa: model</h1></b>
+
+
+
+<h2>Naziv klase: Dice.java</h2>
+<h3>package hr.algebra.model</h3><h4>public Dice</h4><h4>extends java.lang.Object</h4><h4>
+
+
+
+<h5>Varijable:</h5>
+<p>private java.lang.String hr.algebra.model.Dice.name</p>
+
+
+<p>private javafx.scene.image.ImageView hr.algebra.model.Dice.image</p>
+
+
+<p>private java.lang.String hr.algebra.model.Dice.imageURL</p>
+
+
+<p>private boolean hr.algebra.model.Dice.isClicked</p>
+
+
+
+
+<h5>Metode:</h5>
+<p>public class java.lang.String getName()</p>
+<p>public void setName(java.lang.String arg0)</p>
+<p>public class javafx.scene.image.ImageView getImage()</p>
+<p>public class java.lang.String getImageURL()</p>
+<p>public boolean isIsClicked()</p>
+<p>public void setImageURL(java.lang.String arg0)</p>
+<p>public void setIsClicked(boolean arg0)</p>
+<p>public void setImage(javafx.scene.image.ImageView arg0)</p>
+
+
+
+
+<h5>Konstruktori:</h5>
+<h5>public hr.algebra.model.Dice(java.lang.String arg0, javafx.scene.image.ImageView arg1, java.lang.String arg2, boolean arg3)</h5>
+
+
+
+
+
+<h2>Naziv klase: Field.java</h2>
+<h3>package hr.algebra.model</h3><h4>public Field</h4><h4>extends java.lang.Object</h4><h4>implements java.io.Serializable</h4>
+
+
+
+<h5>Varijable:</h5>
+<p>private static final long hr.algebra.model.Field.serialVersionUID</p>
+
+
+<p>private javafx.beans.property.StringProperty hr.algebra.model.Field.name</p>
+
+
+<p>private javafx.beans.property.StringProperty hr.algebra.model.Field.value</p>
+
+
+<p>private javafx.beans.property.IntegerProperty hr.algebra.model.Field.points</p>
+
+
+
+
+<h5>Metode:</h5>
+<p>public class java.lang.String toString()</p>
+<p>public class java.lang.String getName()</p>
+<p>public class java.lang.String getValue()</p>
+<p>private void readObject(java.io.ObjectInputStream arg0) throws class java.io.IOException, class java.lang.ClassNotFoundException</p>
+<p>private void writeObject(java.io.ObjectOutputStream arg0) throws class java.io.IOException</p>
+<p>public void setName(java.lang.String arg0)</p>
+<p>public void setValue(java.lang.String arg0)</p>
+<p>public int getPoints()</p>
+<p>public void setPoints(int arg0)</p>
+
+
+
+
+<h5>Konstruktori:</h5>
+<h5>public hr.algebra.model.Field(java.lang.String arg0, java.lang.String arg1)</h5>
+
+
+
+<h5>public hr.algebra.model.Field(java.lang.String arg0, java.lang.String arg1, int arg2)</h5>
+
+
+
+
+
+<h2>Naziv klase: Game.java</h2>
+<h3>package hr.algebra.model</h3><h4>public Game</h4><h4>extends java.lang.Object</h4><h4>implements java.io.Serializable</h4>
+
+
+
+<h5>Varijable:</h5>
+<p>private static final long hr.algebra.model.Game.serialVersionUID</p>
+
+
+<p>private javafx.collections.ObservableList hr.algebra.model.Game.labels</p>
+
+
+
+
+<h5>Metode:</h5>
+<p>private void readObject(java.io.ObjectInputStream arg0) throws class java.io.IOException, class java.lang.ClassNotFoundException</p>
+<p>private void writeObject(java.io.ObjectOutputStream arg0) throws class java.io.IOException</p>
+<p>public interface javafx.collections.ObservableList getLabels()</p>
+<p>public void setLabels(javafx.collections.ObservableList<hr.algebra.model.Field> arg0)</p>
+
+
+
+
+<h5>Konstruktori:</h5>
+<h5>public hr.algebra.model.Game()</h5>
+
+
+
+
+
+<h2>Naziv klase: Move.java</h2>
+<h3>package hr.algebra.model</h3><h4>public Move</h4><h4>extends java.lang.Object</h4><h4>implements java.io.Serializable</h4>
+
+
+
+<h5>Varijable:</h5>
+<p>private java.lang.String hr.algebra.model.Move.points</p>
+
+
+<p>private java.lang.String hr.algebra.model.Move.labelId</p>
+
+
+<p>private hr.algebra.model.Player hr.algebra.model.Move.player</p>
+
+
+
+
+<h5>Metode:</h5>
+<p>public class java.lang.String toString()</p>
+<p>private void readObject(java.io.ObjectInputStream arg0) throws class java.io.IOException, class java.lang.ClassNotFoundException</p>
+<p>private void writeObject(java.io.ObjectOutputStream arg0) throws class java.io.IOException</p>
+<p>public void setPlayer(hr.algebra.model.Player arg0)</p>
+<p>public class java.lang.String getPoints()</p>
+<p>public class hr.algebra.model.Player getPlayer()</p>
+<p>public void setPoints(java.lang.String arg0)</p>
+<p>public void setLabelId(java.lang.String arg0)</p>
+<p>public class java.lang.String getLabelId()</p>
+
+
+
+
+<h5>Konstruktori:</h5>
+<h5>public hr.algebra.model.Move(java.lang.String arg0, java.lang.String arg1, hr.algebra.model.Player arg2)</h5>
+
+
+
+
+
+<h2>Naziv klase: Player.java</h2>
+<h3>package hr.algebra.model</h3><h4>public Player</h4><h4>extends java.lang.Object</h4><h4>implements java.io.Serializable</h4>
+
+
+
+<h5>Varijable:</h5>
+<p>private java.lang.String hr.algebra.model.Player.nickname</p>
+
+
+<p>private int hr.algebra.model.Player.number</p>
+
+
+
+
+<h5>Metode:</h5>
+<p>private void readObject(java.io.ObjectInputStream arg0) throws class java.io.IOException, class java.lang.ClassNotFoundException</p>
+<p>private void writeObject(java.io.ObjectOutputStream arg0) throws class java.io.IOException</p>
+<p>public int getNumber()</p>
+<p>public void setNumber(int arg0)</p>
+<p>public void setNickname(java.lang.String arg0)</p>
+<p>public class java.lang.String getNickname()</p>
+
+
+
+
+<h5>Konstruktori:</h5>
+<h5>public hr.algebra.model.Player()</h5>
+
+
+
+<h5>public hr.algebra.model.Player(java.lang.String arg0, int arg1)</h5>
+
+
+
+
+
+<h2>Naziv klase: PlayerHolder.java</h2>
+<h3>package hr.algebra.model</h3><h4>public PlayerHolder</h4><h4>extends java.lang.Object</h4><h4>
+
+
+
+<h5>Varijable:</h5>
+<p>private hr.algebra.model.Player hr.algebra.model.PlayerHolder.player</p>
+
+
+<p>private static final hr.algebra.model.PlayerHolder hr.algebra.model.PlayerHolder.INSTANCE</p>
+
+
+
+
+<h5>Metode:</h5>
+<p>public static class hr.algebra.model.PlayerHolder getInstance()</p>
+<p>public void setPlayer(hr.algebra.model.Player arg0)</p>
+<p>public class hr.algebra.model.Player getPlayer()</p>
+
+
+
+
+<h5>Konstruktori:</h5>
+<h5>private hr.algebra.model.PlayerHolder()</h5>
+
+
+
+
+
+<h1><b>Naziv paketa: slike</h1></b>
+
+
+
+<h2>Naziv slike: dice1.png</h2>
+
+
+
+<h2>Naziv slike: dice2.png</h2>
+
+
+
+<h2>Naziv slike: dice3.png</h2>
+
+
+
+<h2>Naziv slike: dice4.png</h2>
+
+
+
+<h2>Naziv slike: dice5.png</h2>
+
+
+
+<h2>Naziv slike: dice6.png</h2>
+
+
+
+<h1><b>Naziv paketa: threads</h1></b>
+
+
+
+<h2>Naziv klase: ClientThread.java</h2>
+<h3>package hr.algebra.threads</h3><h4>public ClientThread</h4><h4>extends java.lang.Thread</h4><h4> java.lang.Object</h4><h4>
+
+
+
+<h5>Varijable:</h5>
+<p>private java.util.List hr.algebra.threads.ClientThread.moves</p>
+
+
+<p>private final hr.algebra.controller.MainController hr.algebra.threads.ClientThread.controller</p>
+
+
+<p>private hr.algebra.model.Player hr.algebra.threads.ClientThread.player</p>
+
+
+<p>public static final java.lang.String hr.algebra.threads.ClientThread.PROPERTIES_FILE</p>
+
+
+<p>public static final java.lang.String hr.algebra.threads.ClientThread.PORT</p>
+
+
+<p>public static final java.lang.String hr.algebra.threads.ClientThread.GROUP</p>
+
+
+<p>public static final java.util.Properties hr.algebra.threads.ClientThread.PROPERTIES</p>
+
+
+
+
+<h5>Metode:</h5>
+<p>public void run()</p>
+<p>public void trigger(java.util.List<hr.algebra.model.Move> arg0)</p>
+<p>static class hr.algebra.controller.MainController access$000(hr.algebra.threads.ClientThread arg0)</p>
+<p>public void setPlayer(hr.algebra.model.Player arg0)</p>
+<p>private void lambda$run$0(java.util.List arg0)</p>
+<p>public class hr.algebra.model.Player getPlayer()</p>
+<p>private void sendPacketToServer(java.util.List<hr.algebra.model.Move> arg0, java.net.MulticastSocket arg1, java.net.InetAddress arg2)</p>
+
+
+
+
+<h5>Konstruktori:</h5>
+<h5>public hr.algebra.threads.ClientThread(java.lang.String arg0, hr.algebra.controller.MainController arg1, hr.algebra.model.Player arg2)</h5>
+
+
+
+
+
+<h1><b>Naziv paketa: view</h1></b>
+
+
+
+<h2>Naziv klase: Main.fxml</h2>
+
+
+
+<h2>Naziv klase: Menu.fxml</h2>
+
+
+
+</body>
+</html>
